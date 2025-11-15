@@ -61,6 +61,12 @@
     "light": "/logo.svg",
     "dark": "/logo.svg"
   },
+  "fonts": {
+    "family": "IBM Plex Sans",
+    "source": "/fonts/IBMPlexSans-Regular.ttf",
+    "format": "truetype",
+    "weight": 400
+  },
   "navbar": {
     "links": [
       {
