@@ -11,8 +11,8 @@
   },
   "fonts": {
     "family": "IBM Plex Sans",
-    "source": "/fonts/IBMPlexSans-Regular.ttf",
-    "format": "truetype",
+    "source": "/fonts/IBMPlexSans-Regular.woff2",
+    "format": "woff2",
     "weight": 400
   },
   "favicon": "/favicon.svg",
