@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mapel",
+  "theme": "maple",
   "name": "Lesson Organizer - Dokumentation",
   "colors": {
     "primary": "#EE724F"
