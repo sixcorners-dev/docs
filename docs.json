@@ -1,9 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "mint",
   "name": "Lesson Organizer - Dokumentation",
   "colors": {
-    "primary": "#EE724F"
+    "primary": "#EE724F",
+    "light": "#EE724F",
+    "dark": "#EE724F"
   },
   "logo": {
     "light": "/logo.svg",
