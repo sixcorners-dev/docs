@@ -7,6 +7,7 @@
     "light": "#EE724F",
     "dark": "#EE724F"
   },
+  "icon": "lucide",
   "logo": {
     "light": "/logo.svg",
     "dark": "/logo.svg"
