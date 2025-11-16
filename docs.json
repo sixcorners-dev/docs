@@ -20,11 +20,13 @@
     "tabs": [
       {
         "tab": "Einstieg",
-        "groups": []
+        "groups": [
+          { 
+            "group": "Kurzanleitungen",
+            "pages": [ "index", "spalten-in-einem-inhalt-erstelle" ]
+          }
+        ]
       }
-    ],
-    "pages": [
-      "spalten-in-einem-inhalt-erstellen"
     ],
     "global": {
       "anchors": []
