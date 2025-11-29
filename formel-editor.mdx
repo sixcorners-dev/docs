@@ -5,26 +5,86 @@ sidebarTitle: "Formel Editor"
 icon: "square-root-variable"
 ---
 
-### **1. Worum geht's?**
+## **Worum geht's?**
 
 Der Formel-Editor ermöglicht dir, mathematische Ausdrücke direkt im Textfeld sauber zu setzen.
 
 Er ermöglicht dir:
 
-- optische Hervorhebung im Text (z.B. Materialhinweise)
-- mathematische Schreibweise von gängigen Zeichen
+- **optische Hervorhebung** im Text (z.B. Materialhinweise)
+- **mathematische Schreibweise** von gängigen Zeichen
 - **Sonderzeichen** für z.B. Musik, Chemie, Physik, Mathematik (α, β, → , \<, = …)
+- optisch schöne Darstellung von Matrizen, Wurzeln, Integralen, ...
 
-  ![image.png](/images/image.png)
-
-### 2. Wie starte ich die Formeleingabe?
+### **Wie starte ich die Formeleingabe?**
 
 Du kannst Formeln auf drei Arten eingeben:
 
-| **1) Quick Versinon**<br />→ nachträgliche optische Hervorhebung im Text                                                                                                                                             | **2) Simple Version**<br />→ Direkteingabe eines Formelbefehl mittels Forat-Option via Maus-Eingabe                                                                                                                                                                                                                                                                        | 3) **Pro Version** <br />→ Direkteingabe der Formel mittels <br />Tastenbefehl \$...\$              |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| **Wofür geeignet?**<br />-**optische Hervorhebung**  von Textabschnitten<br />- Umwandeln einfacher Befehle in Formeln                                                                                               | **Wofür geeignet?**<br />- **einfache Formeln** (a + b = c) mittels gängigen Tastatursymbolen<br />- **komplexe Formeln** mittels code-Befehlen<br />- Eingabe von **Sonderzeichen**                                                                                                                                                                                       | **Wofür geeignet?**<br />- wie 1), nur mittels direkter Tastatureingabe                             |
-| **Wie geht’s?**<br />→ Schreibe einen normalen Text <br />→ markiere einen Teil davon <br />→ Dreipunkt-Menu <br />→  „Formel“-Button (**√ )**. <br />→ Der Text wird in eine Formel umgewandelt.                    | \*\*Wie geht’s? \*\*<br />→  Öffne eine neue Zeile im Editor<br />→ Tippe ein Slash ein  **/...** <br />→ wähle die Formel-Option aus \*\*√ - \*\*<br />→ Beginne deine Text- oder Formeleingabe direkt im grauen Kasten\_(der LateX Schriftzug ist nur Platzhalter) \_ <br />→ starte mittels Backslah \*\*\\ \*\* (Command+Shift+7) die Formel-Befehle (siehe Kapitel 3) | **Wie geht’s?**<br />Formelmodus manuell starten: \$…\$ für inline oder \$\$…\$\$ für Blockformeln. |
-| **Beispiele**<br />- Dieses _Wort_ ist ganz besonders wichtig!<br />- a^2 + b^2 = c^2<br />-  hier würde ich gerne ein **Gamma** schreiben, indem ich im Fließtext bereits \\gamma schreibe und das danach markiere. | **Beispiele**<br />\\alpha →   α- \\<br />\\sqrt → - <br />  \\sum →                                                                                                                                                                                                                                                                                                       | **Beispiele**<br />$x^2 - 3x + 2$- $$\fracab = c$$                                                  |
+#### 1) Quick-Version
 
-Eine vollstädige Liste findest Du [hier](https://katex.org/docs/supported).
+✔️ Die einfachste Methode
+
+→ Ideal, zur optischen Hervorhebung.
+
+▶️ So geht’s (Schritt für Schritt)
+
+1. Schreibe deinen Text ganz normal.
+2. Markiere das Wort oder die Stelle, die eine Formel sein soll.
+3. Öffne das Dreipunkt-Menü.
+4. Klicke auf „Formel“ (√).
+5. Fertig – der Text wird automatisch als Formel dargestellt.
+
+📝 Beispiel
+
+- Du schreibst: „Die Fläche ist `a²`.“
+- Markierst `a²`
+- Klickst auf „Formel“ → und erhältst `a²`
+
+#### 2) Simple-Version
+
+✔️ Die Methode, um übersichtlich Formeln oder Sonderzeichen zu schreiben.
+
+→ Ideal, wenn du direkt eine Formel schreiben möchtest.
+
+Hier hilft dir der Editor aktiv – du musst nur auswählen.
+
+▶️ So geht’s
+
+1. Mache eine neue Zeile.
+2. Tippe /.
+3. Wähle „Formel“.
+4. Lösche den `\\LateX` Schriftzug im grauen Kasten -\> da entsteht deine Formel.
+5. Schreibe simple Formeln (`a^2 \= 4`) direkt rein.
+6. Beginne mit einem Backslash \\, gefolgt von einem Befehl, um Sonderzeichen oder Formeln abzurufen. (`\\alpha` → Übersetzt den Befehl "alpha" in das Symbol), (\\sum -\> erstellt ein Summenzeichen)
+7. schreibe hinter einen Befehl in geschweifte Klammern, worauf sich dieser bezieht. (`\\suma+b` → in der Summe soll `a+b` stehen)
+
+📝 Beispiele
+
+- `\\alpha → α`
+- `\\sqrtx → √(x)`
+- `\\sum → ∑`
+- `\\suma^2 → ∑a^2`
+- `\\rightarrowabc`
+
+#### 3) Pro-Version
+
+✔️ Für alle, die Formeln direkt in den Text schreiben wollen. Wie Version 2, nur, schaltest du den Formeleditor selbst ein - mit der Tastatur - indem den Text mit `$...$` einrahmst.
+
+→ Ideal, wenn du öfter Formeln brauchst oder schneller arbeiten möchtest.
+
+▶️ So geht’s
+
+- Inline-Formel (im Text): `$...$`
+- Formelblock (eigene Zeile): `$$...$$`
+
+📝 Beispiel
+
+Wenn du schreibst:
+
+`$ ...$`
+
+dann erscheint:
+
+`a² \+ b² \= c²`
+
+Eine vollstädige Liste mit Befehlen und Symbolen findest Du [hier](https://katex.org/docs/supported).
