@@ -5,6 +5,8 @@ sidebarTitle: "Formel Editor"
 icon: "square-root-variable"
 ---
 
+![Formula Pn](/images/formula.png)
+
 ## **Worum geht's?**
 
 Der Formel-Editor ermöglicht dir, mathematische Ausdrücke direkt im Textfeld sauber zu setzen.
@@ -20,7 +22,7 @@ Er ermöglicht dir:
 
 Du kannst Formeln auf drei Arten eingeben:
 
-#### 1) Quick-Version
+#### 1) Formeln per Schnellformatierung
 
 ✔️ Die einfachste Methode
 
@@ -53,20 +55,20 @@ Hier hilft dir der Editor aktiv – du musst nur auswählen.
 1. Mache eine neue Zeile.
 2. Tippe /.
 3. Wähle „Formel“.
-4. Lösche den `\\LateX` Schriftzug im grauen Kasten -\> da entsteht deine Formel.
+4. Lösche den `\LateX` Schriftzug im grauen Kasten -\> da entsteht deine Formel.
 5. Schreibe simple Formeln (`a^2 \= 4`) direkt rein.
-6. Beginne mit einem Backslash \\, gefolgt von einem Befehl, um Sonderzeichen oder Formeln abzurufen. (`\\alpha` → Übersetzt den Befehl "alpha" in das Symbol), (\\sum -\> erstellt ein Summenzeichen)
-7. schreibe hinter einen Befehl in geschweifte Klammern, worauf sich dieser bezieht. (`\\suma+b` → in der Summe soll `a+b` stehen)
+6. Beginne mit einem Backslash \\, gefolgt von einem Befehl, um Sonderzeichen oder Formeln abzurufen. (`\alpha` → Übersetzt den Befehl "alpha" in das Symbol), (\\sum -\> erstellt ein Summenzeichen)
+7. schreibe hinter einen Befehl in geschweifte Klammern, worauf sich dieser bezieht. (`\suma+b` → in der Summe soll `a+b` stehen)
 
 📝 Beispiele
 
-- `\\alpha → α`
-- `\\sqrtx → √(x)`
-- `\\sum → ∑`
-- `\\suma^2 → ∑a^2`
-- `\\rightarrowabc`
+- `\alpha → α`
+- `\sqrtx → √(x)`
+- `\sum → ∑`
+- `\suma^2 → ∑a^2`
+- `\rightarrowabc`
 
-#### 3) Pro-Version
+#### 3. Schnellen Inline-Formelschreiben
 
 ✔️ Für alle, die Formeln direkt in den Text schreiben wollen. Wie Version 2, nur, schaltest du den Formeleditor selbst ein - mit der Tastatur - indem den Text mit `$...$` einrahmst.
 
@@ -75,16 +77,15 @@ Hier hilft dir der Editor aktiv – du musst nur auswählen.
 ▶️ So geht’s
 
 - Inline-Formel (im Text): `$...$`
-- Formelblock (eigene Zeile): `$$...$$`
 
 📝 Beispiel
 
 Wenn du schreibst:
 
-`$ ...$`
+`$a^2+b^2=c^2$`
 
 dann erscheint:
 
-`a² \+ b² \= c²`
+`a² + b² = c²`
 
 Eine vollstädige Liste mit Befehlen und Symbolen findest Du [hier](https://katex.org/docs/supported).
