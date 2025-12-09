@@ -26,7 +26,7 @@
         "groups": [
           { 
             "group": "Kurzanleitungen",
-            "pages": [ "index", "spalten-in-einem-inhalt-erstellen", "formel-editor" ]
+            "pages": [ "index", "spalten-in-einem-inhalt-erstellen", "formel-editor", "sso-login" ]
           }
         ]
       }
